@@ -13,5 +13,13 @@ export const styles = StyleSheet.create({
     title:{
         fontSize: theme.fonts.size.heading.md,
         fontFamily: theme.fonts.family.bold,
-    }
+    },
+    recipes: {
+        padding: 32,
+    },
+    recipesContent: {
+        gap: 16,
+    },
+    empty: {
+    },
 }); 
